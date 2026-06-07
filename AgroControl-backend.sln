@@ -1,0 +1,36 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "agrocontrol", "agrocontrol", "{F15AEE1C-EF5D-EF8C-58D9-E71B597031B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgroControl.Api", "agrocontrol\AgroControl.Api\AgroControl.Api.csproj", "{E40A1433-5E4D-F1B9-CC20-CEDDEF221F4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgroControl.Tests", "agrocontrol\AgroControl.Tests\AgroControl.Tests.csproj", "{5204AEA1-BF01-43B6-AB42-CE41EB126046}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E40A1433-5E4D-F1B9-CC20-CEDDEF221F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40A1433-5E4D-F1B9-CC20-CEDDEF221F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40A1433-5E4D-F1B9-CC20-CEDDEF221F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40A1433-5E4D-F1B9-CC20-CEDDEF221F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5204AEA1-BF01-43B6-AB42-CE41EB126046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5204AEA1-BF01-43B6-AB42-CE41EB126046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5204AEA1-BF01-43B6-AB42-CE41EB126046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5204AEA1-BF01-43B6-AB42-CE41EB126046}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E40A1433-5E4D-F1B9-CC20-CEDDEF221F4A} = {F15AEE1C-EF5D-EF8C-58D9-E71B597031B5}
+		{5204AEA1-BF01-43B6-AB42-CE41EB126046} = {F15AEE1C-EF5D-EF8C-58D9-E71B597031B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {869218A7-75FE-4925-AA4A-238BC999AD70}
+	EndGlobalSection
+EndGlobal
