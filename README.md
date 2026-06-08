@@ -96,3 +96,12 @@ Como a aplicação está hospedada em um ambiente híbrido/WSL2, siga os passos 
 3. A aplicação estará rodando em:
    * **[http://localhost:5062/swagger](http://localhost:5062/swagger)** (Swagger UI para testes rápidos dos endpoints).
    * **Atenção:** A rota raiz `/` não possui controller mapeado e retornará erro *404 Not Found*. Acesse sempre a rota `/swagger` no navegador para interagir com a interface visual da API.
+
+---
+
+## 👥 Participantes
+
+Eduardo Gomes Pinho Junior - rm97919
+Gustavo Ferreira Lopes - rm98887
+Enzo de Oliveira Cunha - rm550985
+Leonardo Viotti Bonini  - rm551716
